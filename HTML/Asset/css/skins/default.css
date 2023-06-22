@@ -177,7 +177,7 @@ html .background-color-light {
 
 .btn-gradient:not(.btn-outline):hover,
 .btn-gradient:not(.btn-outline).hover {
-	background: linear-gradient(135deg, #00a1f2 0%, #e9807a 80%);
+	background: linear-gradient(135deg, #0f5720 0%, #e9807a 80%);
 	color: #FFF;
 }
 
@@ -205,9 +205,9 @@ html .background-color-light {
 
 .btn-gradient.btn-outline:hover,
 .btn-gradient.btn-outline.hover {
-	-o-border-image: linear-gradient(135deg, #00a1f2 0%, #e9807a 80%);
-	   border-image: linear-gradient(135deg, #00a1f2 0%, #e9807a 80%);
-	color: #00a1f2;
+	-o-border-image: linear-gradient(135deg, #0f5720 0%, #e9807a 80%);
+	   border-image: linear-gradient(135deg, #0f5720 0%, #e9807a 80%);
+	color: #0f5720;
 }
 
 .btn-gradient.btn-outline:focus,
@@ -629,8 +629,8 @@ html .btn-primary {
 
 html .btn-primary:hover,
 html .btn-primary.hover {
-	background-color: #00a1f2;
-	border-color: #00aaff #00aaff #030303;
+	background-color: #0f5720;
+	border-color: #209d11 #209d11 #030303;
 	color: #FFF;
 }
 
@@ -1127,8 +1127,8 @@ body.dark .pagination > .active > a {
 body.dark .pagination > .active > a:hover,
 .pagination > .active > a.hover,
 body.dark .pagination > .active > a.hover {
-	background-color: #00a1f2;
-	border-color: #00aaff #00aaff #030303;
+	background-color: #0f5720;
+	border-color: #209d11 #209d11 #030303;
 	color: #fff;
 }
 
@@ -2451,12 +2451,12 @@ html.dark .radio-primary input[type="radio"]:checked + label:after,
 
 .slider-gradient.slider-primary .ui-slider-range,
 .slider-gradient.slider-primary .ui-slider-handle {
-	background-image: linear-gradient(to left, #00aaff 0, #030303 50%, #006699 100%);
+	background-image: linear-gradient(to left, #209d11 0, #030303 50%, #006699 100%);
 }
 
 .slider-gradient.ui-slider-vertical.slider-primary .ui-slider-range,
 .slider-gradient.ui-slider-vertical.slider-primary .ui-slider-handle {
-	background-image: linear-gradient(to right, #00aaff 0, #030303 50%, #006699 100%);
+	background-image: linear-gradient(to right, #209d11 0, #030303 50%, #006699 100%);
 }
 
 .datepicker thead tr:first-child th:hover,
