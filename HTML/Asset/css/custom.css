@@ -1,0 +1,97 @@
+/* Add here all your CSS customizations */
+.logo-container .logo img{max-width: 190px;}
+footer{background-color: #000; color: #fff;}
+footer a{color: #fff;font-size: 1.8rem;}
+.footer-links ul{ list-style-type: none;padding-left: 0;}
+.footer-links h4{text-transform: uppercase;margin-bottom: 20px;}
+.footer-content{padding-top: 20px;}
+.footer-legal{padding: 25px 0; border-top: solid 1px #fff;margin-top: 20px;}
+footer p{color: #fff;}
+footer .social-links a { font-size: 2.5rem;  }
+h1{font-size: 4.5rem;line-height: 1;}
+h2{font-size: 3.5rem;line-height: 1;}
+h3{font-size: 2.8rem;line-height: 1;}
+h4{font-size: 2.2rem;line-height: 1;}
+
+@media (min-width: 992px)
+{
+    .header.header-nav-menu.header-nav-top-line{ display: flex;align-items: center;justify-content: space-between;padding: 15px 0;
+        box-shadow: 0px 2px 20px rgba(0,0,0, 0.1);}  
+.logo-container{display: flex; flex-grow: 1;}
+.header.header-nav-menu .header-nav{margin: auto;}
+header .container{align-items: center;    justify-content: space-between;    display: flex;}
+}
+
+
+
+
+
+/* Blog Home */
+.featured-img img{width: 100%; max-height: 350px; object-fit: cover;}
+.sort-by{ display: flex; justify-content: end;align-items: center;}
+.sort-by select{border: 0; background-color: transparent;cursor: pointer;}
+select option:hover{cursor: progress;}
+.blog-img{ overflow: hidden; height:220px;object-fit: cover;
+    height: 100%;}
+.blog-img img{width: 100%; transition: all 1s;}
+.blog-list .blog-short-desc{text-align: center; padding: 15px; padding-top: 0;}
+.blog-list{margin-bottom: 30px;border: solid 1px #ccc; transition: all 1s;
+    padding:0px; border-radius: 10px; overflow: hidden;box-shadow: 0 1px 9px #ccc;}
+.blog-list:hover .blog-img img{transform: scale(1.1);filter: grayscale(0.8);}
+.blog-list:hover{box-shadow: 0 1px 9px #000;}
+.blog-date p{color: rgba(0, 0,0, .8);  
+    font-size: 1.8rem;}
+.dropdown-menu.message img{ max-width: 30px;}    
+
+
+
+.user-info{display: flex; justify-content: space-between;}
+.user-details{display: flex; align-items: center;}
+.user-details .profile-details h4{font-size: 1.8rem !important; line-height: 1;margin: 0 0 10px 0;    font-weight: bold;}
+.user-details .profile-details p{font-size: 1.5rem; line-height: 1; margin-bottom: 0;}
+.blog-home.details .profile-img img{width: 50px; object-fit: cover;border-radius: 50%;margin-bottom: 0;}
+.profile-img{margin-right: 15px;}
+.user-share{align-items: center;  display: flex;}
+.user-share .col-sm.b{border: solid 1px #ccc;}
+.share{display: flex;}
+.user-share .share a{padding: 8px 15px;}
+.blog-home.details h1{font-size: 2.5rem;line-height: 1;}
+.blog-home.details h2{font-size: 2.1rem;line-height: 1;}
+.blog-home.details h3{font-size: 1.8rem;line-height: 1;}
+.blog-home.details h4{font-size: 1.2rem;line-height: 1;}
+.blog-home.details img{width: 100%; margin-bottom: 15px;}
+.blog-bottom{display: flex; justify-content: space-between;border-top: dashed 1px #000;
+    border-bottom: dashed 1px #000;padding: 10px 0;}
+.comment-data img, .clap img{max-width: 25px;margin-bottom: 0 !important;}
+.comment-data a, .clap a{display: flex;}
+.blog-info{display: flex;}
+.blog-reply-btn{display: flex; padding: 15px 0;
+    justify-content: end;
+    border-bottom: dashed 1px #000;}
+.blog-home.details {margin-bottom: 30px;}   
+
+
+
+/* Opportunities */
+.input-group.search a{border: solid 1px #ccc; border-left: 0; background-color: #fff;display: flex;
+    align-items: center;    padding: 5px 10px;}
+.input-group.search input{border-right: 0;}
+.sorting-wrap{border: solid 1px #ccc; font-size: 1.8rem; padding: 2px 5px;}
+.sorting-wrap p, .sorting-wrap select{font-size: 1.7rem;  background-color: transparent;  border: none;  }
+.opportunity-sec{margin-bottom: 30px;    box-shadow: 0px 5px 5px #ccc;    background-color: #fff;    border-radius: 15px;
+    padding: 15px;}
+.opportunity-sec h4{ font-weight: 600;}
+.sec-wrap{border-top: solid 1px #ccc; border-bottom: solid 1px #ccc; padding: 15px 0;margin-bottom: 15px;}
+.read-more{justify-content: space-between;}
+.read-more a{display: flex; align-items: center;}
+.read-more i{padding-top: 5px; padding-left: 5px;}
+.opportunity-footer{display: flex;    align-items: center;    justify-content: space-between;}
+.opportunity-sec .sec-wrap img{width: 100%; height: 140px; object-fit: cover;}
+.auther p{font-size: 1.8rem;}
+.auther i{font-size: 5px; padding: 0 15px;}
+.header-right {
+    float: right;
+    height: 56px;
+    display: flex;
+    align-items: center;
+  }

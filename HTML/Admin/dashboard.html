@@ -1,0 +1,382 @@
+<!doctype html>
+<html class="fixed sidebar-left-sm">
+	<head>
+
+		<!-- Basic -->
+		<meta charset="UTF-8">
+
+		<title> </title>
+		<meta name="keywords" content=" " />
+		<meta name="description" content=" ">
+		<meta name="author" content=" ">
+		<link rel="icon" type="image/x-icon" href="../Asset/img/favicon.jpg">
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="../Asset/vendor/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../Asset/vendor/animate/animate.compat.css">
+		<link rel="stylesheet" href="../Asset/vendor/font-awesome/css/all.min.css" />
+		<link rel="stylesheet" href="../Asset/vendor/boxicons/css/boxicons.min.css" />
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="../Asset/css/theme.css" />
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="../Asset/css/skins/default.css" />
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="../Asset/css/dashboard.css">
+
+		<link rel="stylesheet" href="../Asset/css/custom.css">
+<!-- Head Libs -->
+<script src="/Asset/vendor/modernizr/modernizr.js"></script>
+		
+
+	</head>
+	<body>
+		<section class="body">
+
+			<!-- start: header -->
+			<header class="header">
+				<div class="logo-container">
+					<a href="#" class="logo">
+						<img src="/Asset/img/logo.png"  alt="" />
+					</a>
+				
+					<div class="d-md-none toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html"
+						data-fire-event="sidebar-left-opened">
+						<i class="fas fa-bars" aria-label="Toggle sidebar"></i>
+					</div>
+				
+				</div>
+
+				<!-- start: search & user box -->
+				<div class="header-right">
+
+					
+
+					
+
+					<div id="userbox" class="userbox">
+						<a href="#" data-bs-toggle="dropdown">
+							<figure class="profile-picture">
+								<img src="/Asset/img/!logged-user.jpg" alt="Joseph Doe" class="rounded-circle" data-lock-picture="img/!logged-user.jpg" />
+							</figure>
+							<div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
+								<span class="name">John Doe Junior</span>
+								<span class="role">Administrator</span>
+							</div>
+
+							<i class="fa custom-caret"></i>
+						</a>
+
+						<div class="dropdown-menu">
+							<ul class="list-unstyled mb-2">
+								<li class="divider"></li>
+								<li>
+									<a role="menuitem" tabindex="-1" href="pages-user-profile.html"><i class="bx bx-user-circle"></i> My Profile</a>
+								</li>
+								
+								<li>
+									<a role="menuitem" tabindex="-1" href="pages-signin.html"><i class="bx bx-power-off"></i> Logout</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- end: search & user box -->
+			</header>
+			<!-- end: header -->
+
+			<div class="inner-wrapper">
+				<!-- start: sidebar -->
+				<aside id="sidebar-left" class="sidebar-left">
+
+				    <div class="sidebar-header">
+				        <div class="sidebar-title">
+				          
+				        </div>
+				        <div class="sidebar-toggle d-none d-md-block" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+				            <i class="fas fa-bars" aria-label="Toggle sidebar"></i>
+				        </div>
+				    </div>
+
+				    <div class="nano">
+				        <div class="nano-content">
+				            <nav id="menu" class="nav-main" role="navigation">
+
+				                <ul class="nav nav-main">
+				                  
+									<li class="nav-parent">
+				                        <a class="nav-link" href="#">
+											<i class='bx bx-user-circle'></i>
+				                            <span>Profile</span>
+				                        </a>
+				                        <ul class="nav nav-children">
+				                            <li>
+				                                <a class="nav-link" href="dashboard.html">
+				                                    Edit Profile
+				                                </a>
+				                            </li>
+				                            <li>
+				                                <a class="nav-link" href="create-news.html">
+				                                    Forgot Password
+				                                </a>
+				                            </li>
+				                           
+				                        </ul>
+				                    </li>
+									<li class="nav-parent">
+				                        <a class="nav-link" href="#">
+				                            <i class='bx bxs-component'></i>
+				                            <span>Contacts</span>
+				                        </a>
+				                        <ul class="nav nav-children">
+				                            <li>
+				                                <a class="nav-link" href="#">
+				                                    Create
+				                                </a>
+				                            </li>
+				                            <li>
+				                                <a class="nav-link" href="#">
+				                                    View
+				                                </a>
+				                            </li>
+				                           
+				                        </ul>
+				                    </li>
+									<li class="nav-parent">
+				                        <a class="nav-link" href="#">
+											<i class='bx bx-devices'></i>
+				                            <span>Prospects</span>
+				                        </a>
+				                        <ul class="nav nav-children">
+				                            <li>
+				                                <a class="nav-link" href="#">
+													Create
+				                                </a>
+				                            </li>
+				                            <li>
+				                                <a class="nav-link" href="#">
+				                                    View / Followup
+				                                </a>
+				                            </li>
+											<li>
+				                                <a class="nav-link" href="#">
+													Onboarding
+				                                </a>
+				                            </li>
+				                           
+				                        </ul>
+				                    </li>
+									<li class="nav-parent">
+				                        <a class="nav-link" href="#">
+											<i class='bx bxl-slack'></i>
+				                            <span>Opportunities</span>
+				                        </a>
+				                        <ul class="nav nav-children">
+				                            <li>
+				                                <a class="nav-link" href="#">
+													Create
+				                                </a>
+				                            </li>
+				                            <li>
+				                                <a class="nav-link" href="#">
+				                                    View / Followup
+				                                </a>
+				                            </li>
+															                           
+				                        </ul>
+				                    </li>
+									<li class="nav-parent">
+				                        <a class="nav-link" href="#">
+											<i class='bx bxs-conversation'></i>
+				                            <span>Reviews</span>
+				                        </a>
+				                        <ul class="nav nav-children">
+				                            <li>
+				                                <a class="nav-link" href="#">
+													Create
+				                                </a>
+				                            </li>
+				                            <li>
+				                                <a class="nav-link" href="#">
+													Review Log
+				                                </a>
+				                            </li>
+															                           
+				                        </ul>
+				                    </li>
+									<li class="nav-parent">
+				                        <a class="nav-link" href="#">
+				                            <i class='bx bx-cog'></i>
+				                            <span>Service Requests</span>
+				                        </a>
+				                        <ul class="nav nav-children">
+				                            <li>
+				                                <a class="nav-link" href="#">
+													Create
+				                                </a>
+				                            </li>
+				                            <li>
+				                                <a class="nav-link" href="#">
+													View
+				                                </a>
+				                            </li>
+															                           
+				                        </ul>
+				                    </li>
+				                  
+				                </ul>
+				            </nav>
+
+				            
+				        </div>
+
+				        <script>
+				            // Maintain Scroll Position
+				            if (typeof localStorage !== 'undefined') {
+				                if (localStorage.getItem('sidebar-left-position') !== null) {
+				                    var initialPosition = localStorage.getItem('sidebar-left-position'),
+				                        sidebarLeft = document.querySelector('#sidebar-left .nano-content');
+
+				                    sidebarLeft.scrollTop = initialPosition;
+				                }
+				            }
+				        </script>
+
+				    </div>
+
+				</aside>
+				<!-- end: sidebar -->
+
+				<section role="main" class="content-body">
+					
+
+					<!-- start: page -->
+					
+					<div class="row align-items-center">
+						<div class="col-md-6">
+							<h2 class="card-title">News</h2>
+						</div>
+						<div class="col-md-6">
+							<div class="text-end">
+								<a type="button" href="create-news.html" class="mb-1 mt-1 me-1 btn btn-black"><i class="fas fa-plus"></i> Create News</a>
+							</div>
+						</div>
+					</div>
+<div class="row">
+	<div class="col-md-12">
+		<section class="card">
+
+			<div class="card-body">
+
+				
+				<table class="table table-no-more table-bordered table-striped mb-0">
+					<thead>
+						<tr>
+							<!-- <th class="text-end">&nbsp;</th> -->
+							<th class="">News Title</th>
+							<th class="">Date</th>
+							<th class="">Action</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						
+						<tr>
+							<!-- <td data-title="" class=""><label class="checkbox-inline">
+								<input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+							</label></td> -->
+							<td data-title="News Title" class=""><a href="">Here are some things you should know regarding how we work </a></td>
+							<td data-title="Date" class="">18/05/2022</td>
+							<td data-title="Action" class="text-end "><button type="button" class="btn btn-md btn-success"  data-bs-toggle="tooltip" data-bs-placement="top" title="Edit News"><i class="fas fa-edit"></i> </button> <button type="button" class="btn btn-md btn-danger"   data-bs-toggle="tooltip" data-bs-placement="top" title="Delete News"><i class="fas fa-trash"></i> </button></td>
+							
+						</tr>
+						<tr>
+							<!-- <td data-title="" class=""><label class="checkbox-inline">
+								<input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+							</label></td> -->
+							<td data-title="News Title" class=""><a href="">Here are some things you should know regarding how we work </a></td>
+							<td data-title="Date" class="">18/05/2022</td>
+							<td data-title="Action" class="text-end "><button type="button" class="btn btn-md btn-success"  data-bs-toggle="tooltip" data-bs-placement="top" title="Edit News"><i class="fas fa-edit"></i> </button> <button type="button" class="btn btn-md btn-danger"   data-bs-toggle="tooltip" data-bs-placement="top" title="Delete News"><i class="fas fa-trash"></i> </button></td>
+							
+						</tr>
+						<tr>
+							<!-- <td data-title="" class=""><label class="checkbox-inline">
+								<input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+							</label></td> -->
+							<td data-title="News Title" class=""><a href="">Here are some things you should know regarding how we work </a></td>
+							<td data-title="Date" class="">18/05/2022</td>
+							<td data-title="Action" class="text-end "><button type="button" class="btn btn-md btn-success"  data-bs-toggle="tooltip" data-bs-placement="top" title="Edit News"><i class="fas fa-edit"></i> </button> <button type="button" class="btn btn-md btn-danger"   data-bs-toggle="tooltip" data-bs-placement="top" title="Delete News"><i class="fas fa-trash"></i> </button></td>
+							
+						</tr>
+						<tr>
+							<!-- <td data-title="" class=""><label class="checkbox-inline">
+								<input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+							</label></td> -->
+							<td data-title="News Title" class=""><a href="">Here are some things you should know regarding how we work </a></td>
+							<td data-title="Date" class="">18/05/2022</td>
+							<td data-title="Action" class="text-end "><button type="button" class="btn btn-md btn-success"  data-bs-toggle="tooltip" data-bs-placement="top" title="Edit News"><i class="fas fa-edit"></i> </button> <button type="button" class="btn btn-md btn-danger"   data-bs-toggle="tooltip" data-bs-placement="top" title="Delete News"><i class="fas fa-trash"></i> </button></td>
+							
+						</tr>
+						<tr>
+							<!-- <td data-title="" class=""><label class="checkbox-inline">
+								<input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+							</label></td> -->
+							<td data-title="News Title" class=""><a href="">Here are some things you should know regarding how we work </a></td>
+							<td data-title="Date" class="">18/05/2022</td>
+							<td data-title="Action" class="text-end "><button type="button" class="btn btn-md btn-success"  data-bs-toggle="tooltip" data-bs-placement="top" title="Edit News"><i class="fas fa-edit"></i> </button> <button type="button" class="btn btn-md btn-danger"   data-bs-toggle="tooltip" data-bs-placement="top" title="Delete News"><i class="fas fa-trash"></i> </button></td>
+							
+						</tr>
+					
+					</tbody>
+				</table>
+
+				</div>
+
+			</section>
+	</div>
+</div>
+
+
+					<!-- end: page -->
+				</section>
+			</div>
+
+			
+
+		</section>
+
+			<!-- Vendor -->
+		<script src="/Asset/vendor/jquery/jquery.js"></script>
+		<script src="/Asset/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+		<script src="/Asset/vendor/popper/umd/popper.min.js"></script>
+		<script src="/Asset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="/Asset/vendor/common/common.js"></script>
+		<script src="/Asset/vendor/nanoscroller/nanoscroller.js"></script>
+		
+	
+		
+		
+	
+			<!-- Theme Base, Components and Settings -->
+			<script src="/Asset/js/theme.js"></script>
+	
+			<!-- Theme Custom -->
+			<script src="/Asset/js/custom.js"></script>
+	
+			<!-- Theme Initialization Files -->
+			<script src="/Asset/js/theme.init.js"></script>
+	
+			<!-- Examples -->
+			<script src="/Asset/js/examples/examples.dashboard.js"></script>
+
+		
+
+	</body>
+</html>

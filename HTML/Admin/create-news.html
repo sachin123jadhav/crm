@@ -1,0 +1,442 @@
+<!doctype html>
+<html class="fixed sidebar-left-sm">
+	<head>
+
+		<!-- Basic -->
+		<meta charset="UTF-8">
+
+		<title> </title>
+		<meta name="keywords" content=" " />
+		<meta name="description" content=" ">
+		<meta name="author" content=" ">
+		<link rel="icon" type="image/x-icon" href="/Asset/img/favicon.jpg">
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="../Asset/vendor/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../Asset/vendor/animate/animate.compat.css">
+		<link rel="stylesheet" href="../Asset/vendor/font-awesome/css/all.min.css" />
+		<link rel="stylesheet" href="../Asset/vendor/boxicons/css/boxicons.min.css" />
+
+
+		<link rel="stylesheet" href="../Asset/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+		<link rel="stylesheet" href="../Asset/vendor/bootstrap-fileupload/bootstrap-fileupload.min.css" />
+		<link rel="stylesheet" href="../Asset/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="../Asset/vendor/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../Asset/vendor/animate/animate.compat.css">
+		<link rel="stylesheet" href="../Asset/vendor/font-awesome/css/all.min.css" />
+		<link rel="stylesheet" href="../Asset/vendor/boxicons/css/boxicons.min.css" />
+		<link rel="stylesheet" href="../Asset/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+		<link rel="stylesheet" href="../Asset/vendor/select2/css/select2.css" />
+		<link rel="stylesheet" href="../Asset/vendor/select2-bootstrap-theme/select2-bootstrap.min.css" />
+		<link rel="stylesheet" href="../Asset/vendor/summernote/summernote-bs4.css" />
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="../Asset/css/theme.css" />
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="../Asset/css/skins/default.css" />
+
+			<!-- Theme Custom Spacing -->
+			<link rel="stylesheet" href="../Asset/css/rs-spacing.css">
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="../Asset/css/dashboard.css">
+		<link rel="stylesheet" href="../Asset/css/custom.css">
+<!-- Head Libs -->
+<script src="/Asset/vendor/modernizr/modernizr.js"></script>
+		
+
+	</head>
+	<body>
+		<section class="body">
+
+			<!-- start: header -->
+			<header class="header">
+				<div class="logo-container">
+					<a href="#" class="logo">
+						<img src="/Asset/img/logo.png"  alt="" />
+					</a>
+				
+					<div class="d-md-none toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html"
+						data-fire-event="sidebar-left-opened">
+						<i class="fas fa-bars" aria-label="Toggle sidebar"></i>
+					</div>
+				
+				</div>
+
+				<!-- start: search & user box -->
+				<div class="header-right">
+
+					
+
+					
+
+					<div id="userbox" class="userbox">
+						<a href="#" data-bs-toggle="dropdown">
+							<figure class="profile-picture">
+								<img src="/Asset/img/!logged-user.jpg" alt="Joseph Doe" class="rounded-circle" data-lock-picture="img/!logged-user.jpg" />
+							</figure>
+							<div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
+								<span class="name">John Doe Junior</span>
+								<span class="role">Administrator</span>
+							</div>
+
+							<i class="fa custom-caret"></i>
+						</a>
+
+						<div class="dropdown-menu">
+							<ul class="list-unstyled mb-2">
+								<li class="divider"></li>
+								<li>
+									<a role="menuitem" tabindex="-1" href="pages-user-profile.html"><i class="bx bx-user-circle"></i> My Profile</a>
+								</li>
+								
+								<li>
+									<a role="menuitem" tabindex="-1" href="pages-signin.html"><i class="bx bx-power-off"></i> Logout</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- end: search & user box -->
+			</header>
+			<!-- end: header -->
+
+			<div class="inner-wrapper">
+				<!-- start: sidebar -->
+				<aside id="sidebar-left" class="sidebar-left">
+
+				    <div class="sidebar-header">
+				        <div class="sidebar-title">
+				          
+				        </div>
+				        <div class="sidebar-toggle d-none d-md-block" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+				            <i class="fas fa-bars" aria-label="Toggle sidebar"></i>
+				        </div>
+				    </div>
+
+				    <div class="nano">
+				        <div class="nano-content">
+				            <nav id="menu" class="nav-main" role="navigation">
+
+				                <ul class="nav nav-main">
+				                  
+									<li class="nav-parent">
+				                        <a class="nav-link" href="#">
+											<i class='bx bx-user-circle'></i>
+				                            <span>Profile</span>
+				                        </a>
+				                        <ul class="nav nav-children">
+				                            <li>
+				                                <a class="nav-link" href="dashboard.html">
+				                                    Edit Profile
+				                                </a>
+				                            </li>
+				                            <li>
+				                                <a class="nav-link" href="create-news.html">
+				                                    Forgot Password
+				                                </a>
+				                            </li>
+				                           
+				                        </ul>
+				                    </li>
+									<li class="nav-parent">
+				                        <a class="nav-link" href="#">
+				                            <i class='bx bxs-component'></i>
+				                            <span>Contacts</span>
+				                        </a>
+				                        <ul class="nav nav-children">
+				                            <li>
+				                                <a class="nav-link" href="#">
+				                                    Create
+				                                </a>
+				                            </li>
+				                            <li>
+				                                <a class="nav-link" href="#">
+				                                    View
+				                                </a>
+				                            </li>
+				                           
+				                        </ul>
+				                    </li>
+									<li class="nav-parent">
+				                        <a class="nav-link" href="#">
+											<i class='bx bx-devices'></i>
+				                            <span>Prospects</span>
+				                        </a>
+				                        <ul class="nav nav-children">
+				                            <li>
+				                                <a class="nav-link" href="#">
+													Create
+				                                </a>
+				                            </li>
+				                            <li>
+				                                <a class="nav-link" href="#">
+				                                    View / Followup
+				                                </a>
+				                            </li>
+											<li>
+				                                <a class="nav-link" href="#">
+													Onboarding
+				                                </a>
+				                            </li>
+				                           
+				                        </ul>
+				                    </li>
+									<li class="nav-parent">
+				                        <a class="nav-link" href="#">
+											<i class='bx bxl-slack'></i>
+				                            <span>Opportunities</span>
+				                        </a>
+				                        <ul class="nav nav-children">
+				                            <li>
+				                                <a class="nav-link" href="#">
+													Create
+				                                </a>
+				                            </li>
+				                            <li>
+				                                <a class="nav-link" href="#">
+				                                    View / Followup
+				                                </a>
+				                            </li>
+															                           
+				                        </ul>
+				                    </li>
+									<li class="nav-parent">
+				                        <a class="nav-link" href="#">
+											<i class='bx bxs-conversation'></i>
+				                            <span>Reviews</span>
+				                        </a>
+				                        <ul class="nav nav-children">
+				                            <li>
+				                                <a class="nav-link" href="#">
+													Create
+				                                </a>
+				                            </li>
+				                            <li>
+				                                <a class="nav-link" href="#">
+													Review Log
+				                                </a>
+				                            </li>
+															                           
+				                        </ul>
+				                    </li>
+									<li class="nav-parent">
+				                        <a class="nav-link" href="#">
+				                            <i class='bx bx-cog'></i>
+				                            <span>Service Requests</span>
+				                        </a>
+				                        <ul class="nav nav-children">
+				                            <li>
+				                                <a class="nav-link" href="#">
+													Create
+				                                </a>
+				                            </li>
+				                            <li>
+				                                <a class="nav-link" href="#">
+													View
+				                                </a>
+				                            </li>
+															                           
+				                        </ul>
+				                    </li>
+									<li class="">
+				                        <a class="nav-link" href="dashboard-main.html">
+				                            <i class='bx bxs-dashboard'></i>
+				                            <span>Dashboard</span>
+				                        </a>
+				                      
+				                    </li>
+									<li class="">
+				                        <a class="nav-link" href="#">
+											<i class='bx bxs-report' ></i>
+				                            <span>Reports</span>
+				                        </a>
+				                      
+				                    </li>
+				                  
+				                </ul>
+				            </nav>
+
+				            
+				        </div>
+
+				        <script>
+				            // Maintain Scroll Position
+				            if (typeof localStorage !== 'undefined') {
+				                if (localStorage.getItem('sidebar-left-position') !== null) {
+				                    var initialPosition = localStorage.getItem('sidebar-left-position'),
+				                        sidebarLeft = document.querySelector('#sidebar-left .nano-content');
+
+				                    sidebarLeft.scrollTop = initialPosition;
+				                }
+				            }
+				        </script>
+
+				    </div>
+
+				</aside>
+				<!-- end: sidebar -->
+
+				<section role="main" class="content-body">
+					
+
+					<!-- start: page -->
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="card-title">Create News</h2>
+						</div>
+					</div>
+					
+<div class="row">
+	<div class="col-md-12">
+		<section class="card">
+
+			<div class="card-body">
+
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-floating mb-5">
+							<input type="text" class="form-control"  placeholder="News Title">
+							<label for="Blog Title">News Title</label>
+						  </div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-floating mb-5">
+							<input type="text" class="form-control"  placeholder="Short Description">
+							<label for="Blog Title">Short Description</label>
+						  </div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="form-group row mb-5">
+							<label class="col-lg-12 control-label">Featured image</label>
+							<div class="col-lg-12">
+								<div class="fileupload fileupload-new" data-provides="fileupload">
+									<div class="input-append">
+										<div class="uneditable-input">
+											<i class="fas fa-image fileupload-exists"></i>
+											<span class="fileupload-preview"></span>
+										</div>
+										<span class="btn btn-default btn-file">
+											<span class="fileupload-exists">Change</span>
+											<span class="fileupload-new">Browse</span>
+											<input type="file" />
+										</span>
+										<a href="#" class="btn btn-default fileupload-exists" data-dismiss="fileupload">Remove</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group row mb-5">
+							<label class="col-lg-12 control-label">Select Date</label>
+							<div class="col-lg-12">
+								<div class="input-group">
+									<span class="input-group-text">
+										<i class="fas fa-calendar-alt"></i>
+									</span>
+									<input type="text" data-plugin-datepicker class="form-control">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group row  mb-5">
+							<label class="col-lg-12 control-label">Status</label>
+							<div class="col-lg-12">
+								<select class="form-control">
+									<option>Draft</option>
+									<option>Publish</option>
+									
+								</select>
+
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<form class="form-horizontal form-bordered">
+							<div class="form-group">
+							
+							
+									<div class="summernote" data-plugin-summernote data-plugin-options='{ "height": 180, "codemirror": { "theme": "ambiance" } }'><p>Start typing...</p></div>
+								
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<div class="row mt-15">
+					<div class="col-md-12 text-end">
+						<button type="button" class="mb-1 mt-1 me-1 btn btn-black px-15">Save</button>
+					</div>
+				</div>
+
+				</div>
+
+			</section>
+	</div>
+</div>
+
+
+
+
+					<!-- end: page -->
+				</section>
+			</div>
+
+			
+
+		</section>
+
+			<!-- Vendor -->
+		<script src="/Asset/vendor/jquery/jquery.js"></script>
+		<script src="/Asset/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+		<script src="/Asset/vendor/popper/umd/popper.min.js"></script>
+		<script src="/Asset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="../Asset/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+		<script src="/Asset/vendor/common/common.js"></script>
+		<script src="/Asset/vendor/nanoscroller/nanoscroller.js"></script>
+		
+	
+		<!-- Specific Page Vendor -->
+		<script src="/Asset/vendor/autosize/autosize.js"></script>
+		<script src="/Asset/vendor/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
+
+		
+	<!-- Specific Page Vendor -->
+	<script src="../Asset/vendor/select2/js/select2.js"></script>
+	<script src="../Asset/vendor/summernote/summernote-bs4.js"></script>
+
+		
+	
+			<!-- Theme Base, Components and Settings -->
+			<script src="/Asset/js/theme.js"></script>
+	
+			<!-- Theme Custom -->
+			<script src="/Asset/js/custom.js"></script>
+	
+			<!-- Theme Initialization Files -->
+			<script src="/Asset/js/theme.init.js"></script>
+	
+		
+
+
+		
+
+	</body>
+</html>
