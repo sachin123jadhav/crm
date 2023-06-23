@@ -97,7 +97,9 @@ select option:hover{cursor: progress;}
     align-items: center;
   }
 
-
+  .form-control:not(.form-control-sm):not(.form-control-lg) {
+    font-size: 1.8rem;
+  }
 table th{font-size: 16px;font-weight: 600;}
 table td{font-size: 16px;line-height: 1.2;}
   .page-header h2 {
