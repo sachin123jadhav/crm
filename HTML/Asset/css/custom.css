@@ -22,6 +22,7 @@ h4{font-size: 2.2rem;line-height: 1;}
 header .container{align-items: center;    justify-content: space-between;    display: flex;}
 }
 
+header + div{margin-top: 50px;}
 
 
 
@@ -94,4 +95,18 @@ select option:hover{cursor: progress;}
     height: 56px;
     display: flex;
     align-items: center;
+  }
+
+
+table th{font-size: 16px;font-weight: 600;}
+table td{font-size: 16px;line-height: 1.2;}
+  .page-header h2 {
+    border-bottom-color: #030303;
+    font-size: 24px;
+  }
+  thead, tbody, tfoot, tr, td, th{vertical-align: middle;}
+
+  @media only screen and (min-width: 768px){
+
+    html.fixed .page-header{margin-top: 20px;}
   }
